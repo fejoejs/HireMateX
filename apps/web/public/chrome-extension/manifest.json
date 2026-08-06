@@ -1,0 +1,70 @@
+{
+  "manifest_version": 3,
+  "name": "HireMateX Assistant",
+  "version": "1.2.1",
+  "description": "Passively sync jobs viewed on LinkedIn, Indeed, and Naukri to your HireMateX board.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.linkedin.com/*",
+    "https://linkedin.com/*",
+    "https://*.indeed.com/*",
+    "https://indeed.com/*",
+    "https://*.naukri.com/*",
+    "https://naukri.com/*",
+    "https://hirematex.vercel.app/*",
+    "https://hirematex-web.vercel.app/*",
+    "https://hirematex-api-97nu.onrender.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.linkedin.com/*",
+        "https://linkedin.com/*"
+      ],
+      "js": [
+        "content-scripts/linkedin.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://*.indeed.com/*",
+        "https://indeed.com/*"
+      ],
+      "js": [
+        "content-scripts/indeed.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://*.naukri.com/*",
+        "https://naukri.com/*"
+      ],
+      "js": [
+        "content-scripts/naukri.js"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://hirematex.vercel.app/*",
+        "https://hirematex-web.vercel.app/*"
+      ],
+      "js": [
+        "content-scripts/hirematex.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

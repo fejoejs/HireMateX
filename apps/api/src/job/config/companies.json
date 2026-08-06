@@ -1,0 +1,18 @@
+[
+  { "name": "Airbnb", "ats": "greenhouse", "slug": "airbnb", "website": "https://www.airbnb.com" },
+  { "name": "Stripe", "ats": "greenhouse", "slug": "stripe", "website": "https://www.stripe.com" },
+  { "name": "Cloudflare", "ats": "greenhouse", "slug": "cloudflare", "website": "https://www.cloudflare.com" },
+  { "name": "OpenAI", "ats": "ashby", "slug": "openai", "website": "https://www.openai.com" },
+  { "name": "Figma", "ats": "greenhouse", "slug": "figma", "website": "https://www.figma.com" },
+  { "name": "Vercel", "ats": "greenhouse", "slug": "vercel", "website": "https://www.vercel.com" },
+  { "name": "TCS", "ats": "custom", "slug": "tcs", "website": "https://www.tcs.com" },
+  { "name": "HCLTech", "ats": "custom", "slug": "hcltech", "website": "https://www.hcltech.com" },
+  { "name": "Zoho", "ats": "custom", "slug": "zoho", "website": "https://www.zoho.com" },
+  { "name": "Google", "ats": "custom", "slug": "google", "website": "https://careers.google.com" },
+  { "name": "Microsoft", "ats": "custom", "slug": "microsoft", "website": "https://careers.microsoft.com" },
+  { "name": "Amazon", "ats": "custom", "slug": "amazon", "website": "https://amazon.jobs" },
+  { "name": "CapeStart", "ats": "custom", "slug": "capestart", "website": "https://www.capestart.com" },
+  { "name": "Infosys", "ats": "custom", "slug": "infosys", "website": "https://www.infosys.com" },
+  { "name": "Cognizant", "ats": "custom", "slug": "cognizant", "website": "https://www.cognizant.com" },
+  { "name": "Wipro", "ats": "custom", "slug": "wipro", "website": "https://www.wipro.com" }
+]

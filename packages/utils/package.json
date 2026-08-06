@@ -1,0 +1,22 @@
+{
+  "name": "@ai-copilot/utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^1.2.0",
+    "nodemailer": "^9.0.3",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.15",
+    "@types/nodemailer": "^6.4.14",
+    "@types/qrcode-terminal": "^0.12.2",
+    "typescript": "^5.0.0"
+  }
+}
